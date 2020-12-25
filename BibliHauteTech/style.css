@@ -1,0 +1,49 @@
+p {
+	color: #DBAC45;
+}
+
+body {
+  max-width: 925px;
+  margin: 50px auto;
+  background-color: #040317 ;
+  font-family: Times-New-Roman;
+}
+
+#conteneur1 {
+	background:#505E25;
+	width: 110%;
+	height:auto;
+	margin:50px auto;
+	padding:10px;
+}
+
+#conteneur2 {
+	background:white;
+	width: 90%;
+	height:auto;
+	margin:50px auto;
+}
+
+span {
+	color: blue;
+}
+
+hr, h1, h2 {
+	color: red;
+}
+
+abbr {
+	text-decoration: none;
+	color: blue;
+}
+
+h1, footer {
+	text-align: center;
+}
+
+.Logo {
+	position: relative;
+	bottom: 82px;
+	width: 175px; 
+	height: 125px;
+}
