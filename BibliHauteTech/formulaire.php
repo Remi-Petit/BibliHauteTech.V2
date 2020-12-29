@@ -29,14 +29,3 @@
 
     </form>
 </div>
-
-<style type="text/css">
-    
-    #conteneur3 {
-    background:gray;
-    width: 80%;
-    height:auto;
-    margin:50px auto;
-    }
-    
-</style>

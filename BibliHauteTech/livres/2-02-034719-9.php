@@ -8,20 +8,28 @@
 	</li>
 </ul>
 
-
-<img class="img-zoom-container" src="../img/Les_Buchers_De_Bocanegra.jpg"
+<div class="grid0">
+	<img class="img-zoom-container" src="../img/Les_Buchers_De_Bocanegra.jpg"
 		alt="Le livre: Les Bûchers De Bocanegra"
 		width="350"
 		height="400">
+		
+		<div class="grid">
+			<div class="element">genre</div>
+			<div class="element">Roman</div>
 
-<div class="tableauCSS">
-		<div>One</div>
-        <div>Two</div>
-        <div>Three</div>
-        <div>Four</div>
-        <div>Five</div>
-        <div>Six</div>
-        <div>Seven</div>
+			<div class="element">isbn</div>
+			<div class="element">2-02-034719-9</div>
+
+			<div class="element">prénom, nom de l'écrivain</div>
+			<div class="element">Arturo Pérez-Reverte</div>
+
+			<div class="element">éditeur</div>
+			<div class="element">Roman Seuil</div>
+
+			<div class="element">date de publication</div>
+			<div class="element"><time datetime="2008-03-03">03/03/2008</time></div>
+		</div>
 </div>
 
 </div>

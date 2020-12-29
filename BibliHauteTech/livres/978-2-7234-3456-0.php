@@ -8,34 +8,29 @@
 	</li>
 </ul>
 
-<img src="../img/Dragon_Ball.jpg"
-		alt="Le livre Dragon Ball"
-		width="350"
-		height="400">
+<div class="grid0">
+	<img src="../img/Dragon_Ball.jpg"
+			alt="Le livre Dragon Ball"
+			width="350"
+			height="400">
 
+		<div class="grid">
+			<div class="element">genre</div>
+			<div class="element">Manga</div>
 
-<table>
-	<tr>
-		<th>genre</th>
-		<th>manga</th>
-	</tr>
-	<tr>
-		<th>isbn</th>
-		<th>978-2-7234-3456-0</th>
-	</tr>
-	<tr>
-		<th> prénom, nom de l'écrivain</th>
-		<th>Akira Toriyama</th>
-	</tr>
-	<tr>
-		<th>éditeur</th>
-		<th>Glénat</th>
-	</tr>
-	<tr>
-		<th>date de publication</th>
-		<th><time datetime="1984-02-11">11/02/1984</time></th>
-	</tr>
-</table>
+			<div class="element">isbn</div>
+			<div class="element">978-2-7234-3456-0</div>
+
+			<div class="element">prénom, nom de l'écrivain</div>
+			<div class="element">Akira Toriyama</div>
+
+			<div class="element">éditeur</div>
+			<div class="element">Glénat</div>
+
+			<div class="element">date de publication</div>
+			<div class="element"><time datetime="1984-02-11">11/02/1984</time></div>
+		</div>
+</div>
 
 </div>
 

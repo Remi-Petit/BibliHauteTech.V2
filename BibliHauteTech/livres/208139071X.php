@@ -8,33 +8,29 @@
 	</li>
 </ul>
 
-<img src="../img/Discours_De_La_Methode.png"
+<div class="grid0">
+	<img src="../img/Discours_De_La_Methode.png"
 		alt="Le livre: Discours De La Méthode"
 		width="350"
 		height="400">
+		
+		<div class="grid">
+			<div class="element">genre</div>
+			<div class="element">philosophie</div>
 
-<table>
-	<tr>
-		<th>genre</th>
-		<th>philosophie</th>
-	</tr>
-	<tr>
-		<th>isbn</th>
-		<th>208139071X</th>
-	</tr>
-	<tr>
-		<th> prénom, nom de l'écrivain</th>
-		<th>René Descartes</th>
-	</tr>
-	<tr>
-		<th>éditeur</th>
-		<th>Flammarion</th>
-	</tr>
-	<tr>
-		<th>date de publication</th>
-		<th><time datetime="2016-08-31">31/08/2016</time></th>
-	</tr>
-</table>
+			<div class="element">isbn</div>
+			<div class="element">208139071X</div>
+
+			<div class="element">prénom, nom de l'écrivain</div>
+			<div class="element">René Descartes</div>
+
+			<div class="element">éditeur</div>
+			<div class="element">Flammarion</div>
+
+			<div class="element">date de publication</div>
+			<div class="element"><time datetime="2016-08-31">31/08/2016</time></div>
+		</div>
+</div>
 
 </div>
 

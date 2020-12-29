@@ -8,33 +8,29 @@
 	</li>
 </ul>
 
-<img src="../img/Les_Reseaux_Pour_Les_Nuls.jpeg"
+<div class="grid0">
+	<img src="../img/Les_Reseaux_Pour_Les_Nuls.jpeg"
 		alt="Le livre: Les Reseaux Pour Les Nuls"
 		width="350"
 		height="400">
 
-<table>
-	<tr>
-		<th>genre</th>
-		<th>éducatif</th>
-	</tr>
-	<tr>
-		<th>isbn</th>
-		<th>978-2-412-03960-1</th>
-	</tr>
-	<tr>
-		<th> prénom, nom de l'écrivain</th>
-		<th>Doug Lowe</th>
-	</tr>
-	<tr>
-		<th>éditeur</th>
-		<th>Wiley Publishing</th>
-	</tr>
-	<tr>
-		<th>date de publication</th>
-		<th><time datetime="2018-10-13">13/10/2018</time></th>
-	</tr>
-</table>
+		<div class="grid">
+			<div class="element">genre</div>
+			<div class="element">Éducation</div>
+
+			<div class="element">isbn</div>
+			<div class="element">978-2-412-03960-1</div>
+
+			<div class="element">prénom, nom de l'écrivain</div>
+			<div class="element">Doug Lowe</div>
+
+			<div class="element">éditeur</div>
+			<div class="element">Wiley Publishing</div>
+
+			<div class="element">date de publication</div>
+			<div class="element"><time datetime="2018-10-13">13/10/2018</time></div>
+		</div>
+</div>
 		
 </div>
 

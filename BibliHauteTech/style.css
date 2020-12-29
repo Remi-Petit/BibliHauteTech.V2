@@ -17,11 +17,22 @@ body {
 	padding:10px;
 }
 
+/* c'est le copyright */
+
 #conteneur2 {
 	background:white;
 	width: 90%;
 	height:auto;
 	margin:50px auto;
+}
+
+/* c'est le formulaire */
+
+#conteneur3 {
+    background:gray;
+    width: 80%;
+    height:auto;
+    margin:50px auto;
 }
 
 span {
@@ -46,4 +57,22 @@ h1, footer {
 	bottom: 82px;
 	width: 175px; 
 	height: 125px;
+}
+
+.grid0 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 50px;
+}
+
+.grid {
+  display : grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 75px);
+}
+
+.element {
+  margin: 10px;
+  padding : 10px;
+  background-color : white;
 }

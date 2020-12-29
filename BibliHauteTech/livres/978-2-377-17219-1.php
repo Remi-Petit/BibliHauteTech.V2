@@ -8,35 +8,31 @@
 	</li>
 </ul>
 
-<a href="https://www.youtube.com/watch?v=3k--xA0afto" title="petit extrait de la saison 2">
-<img src="../img/Re_Zero.webp"
-		alt="Le livre Re:Zero tôme 5 de l'arc 3"
-		width="350"
-		height="400">
-</a>
+<div class="grid0">
+	<a href="https://www.youtube.com/watch?v=3k--xA0afto" title="petit extrait de la saison 2">
+		<img src="../img/Re_Zero.webp"
+				alt="Le livre Re:Zero tôme 5 de l'arc 3"
+				width="350"
+				height="400">
+	</a>
 
-<table>
-	<tr>
-		<th>genre</th>
-		<th>manga</th>
-	</tr>
-	<tr>
-		<th>isbn</th>
-		<th>978-2-377-17219-1</th>
-	</tr>
-	<tr>
-		<th> prénom, nom de l'écrivain</th>
-		<th>Tappei Nagatsuki</th>
-	</tr>
-	<tr>
-		<th>éditeur</th>
-		<th>Ototo</th>
-	</tr>
-	<tr>
-		<th>date de publication</th>
-		<th><time datetime="2019-05-30">30/05/2019</time></th>
-	</tr>
-</table>
+		<div class="grid">
+			<div class="element">genre</div>
+			<div class="element">Manga</div>
+
+			<div class="element">isbn</div>
+			<div class="element">978-2-377-17219-1</div>
+
+			<div class="element">prénom, nom de l'écrivain</div>
+			<div class="element">Tappei Nagatsuki</div>
+
+			<div class="element">éditeur</div>
+			<div class="element">Ototo</div>
+
+			<div class="element">date de publication</div>
+			<div class="element"><time datetime="2019-05-30">30/05/2019</time></div>
+		</div>
+</div>
 		
 </div>
 

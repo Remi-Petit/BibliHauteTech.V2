@@ -8,33 +8,29 @@
 	</li>
 </ul>
 
-<img src="../img/Asterix_Le_Gaulois.jpg"
+<div class="grid0">
+	<img src="../img/Asterix_Le_Gaulois.jpg"
 		alt="Le livre: Astérix le gaulois"
 		width="350"
 		height="400">
+		
+		<div class="grid">
+			<div class="element">genre</div>
+			<div class="element">BD</div>
 
-<table>
-	<tr>
-		<th>genre</th>
-		<th>BD</th>
-	</tr>
-	<tr>
-		<th>isbn</th>
-		<th>978-2-01-210-133-3</th>
-	</tr>
-	<tr>
-		<th> prénom, nom de l'écrivain</th>
-		<th>René Goscinny</th>
-	</tr>
-	<tr>
-		<th>éditeur</th>
-		<th>hachette</th>
-	</tr>
-	<tr>
-		<th>date de publication</th>
-		<th><time datetime="1960-07-14">14/07/1960</time></th>
-	</tr>
-</table>
+			<div class="element">isbn</div>
+			<div class="element">978-2-01-210-133-3</div>
+
+			<div class="element">prénom, nom de l'écrivain</div>
+			<div class="element">René Goscinny</div>
+
+			<div class="element">éditeur</div>
+			<div class="element">hachette</div>
+
+			<div class="element">date de publication</div>
+			<div class="element"><time datetime="1960-07-14">14/07/1960</time></div>
+		</div>
+</div>
 
 </div>
 

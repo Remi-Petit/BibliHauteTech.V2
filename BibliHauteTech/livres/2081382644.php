@@ -8,33 +8,29 @@
 	</li>
 </ul>
 
-<img src="../img/Le_Banquet.png"
+<div class="grid0">
+	<img src="../img/Le_Banquet.png"
 		alt="Le livre: Le Banquet"
 		width="350"
 		height="400">
+		
+		<div class="grid">
+			<div class="element">genre</div>
+			<div class="element">philosophie</div>
 
-<table>
-	<tr>
-		<th>genre</th>
-		<th>philosophie</th>
-	</tr>
-	<tr>
-		<th>isbn</th>
-		<th>2081382644</th>
-	</tr>
-	<tr>
-		<th> prénom, nom de l'écrivain</th>
-		<th>Platon</th>
-	</tr>
-	<tr>
-		<th>éditeur</th>
-		<th>Flammarion</th>
-	</tr>
-	<tr>
-		<th>date de publication</th>
-		<th><time datetime="2016-03-16">16/03/2016</time></th>
-	</tr>
-</table>
+			<div class="element">isbn</div>
+			<div class="element">2081382644</div>
+
+			<div class="element">prénom, nom de l'écrivain</div>
+			<div class="element">Platon</div>
+
+			<div class="element">éditeur</div>
+			<div class="element">Flammarion</div>
+
+			<div class="element">date de publication</div>
+			<div class="element"><time datetime="2016-03-16">16/03/2016</time></div>
+		</div>
+</div>
 		
 </div>
 
