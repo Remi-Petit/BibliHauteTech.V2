@@ -1,6 +1,6 @@
 <?php require "head.php"; ?>
 
-<a href="testttt.html">
+<a href="#">
 <img class="Logo" src="img/Logo.ico" alt="Le logo de la page">
 </a>
 
