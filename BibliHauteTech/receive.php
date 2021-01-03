@@ -25,30 +25,37 @@
 
         if(empty($nom)){
             echo "Vous n'avez pas renseigné votre nom.";
-        }else{
-            echo "Bonjour {$nom} {$prenom} !";
-        }
-        if(empty($mail)){
-            echo"Vous n'avez pas rensigné votre mail.";
         }
         else{
-            echo" Votre adresse mail est {$mail}.";
+            echo "Bonjour {$nom} ";
         }
+
+        if(empty($prenom)){
+            echo "Vous n'avez pas renseigné votre nom.";
+        }
+        else{
+            echo "{$prenom} ! <br>";
+        }
+
+
         if(empty($option1)){
-            echo"Vous n'avez pas rensigné votre probleme.";
+            echo "<ul><li>Vous n'avez pas rensigné votre probleme.</li></ul>";
         }
         else{
-            echo" Votre probleme est {$option1}.";
+            echo "<ul><li>Votre probleme est : '{$option1}'.</li></ul>";
         }
+
+
         if(empty($demandes)){
-            echo"Vous n'avez pas rensigné votre demandes.";
+            echo "<ul><li>Vous n'avez pas rensigné votre demandes.</li></ul>";
         }
         else{
-            echo" Votre demande est {$demande}.";
+            echo "<ul><li>Votre demande est : '{$demandes}'.</li></ul>";
         }
 
 }
 ?>
+
 
 </div>
 
