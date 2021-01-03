@@ -3,7 +3,7 @@
 <html lang="fr">
 	<head>  
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="/BibliHauteTech/style.css">
+		<link rel="stylesheet" href="/BibliHauteTech/style2.css">
 		<title> BibliHauteTech </title>
 		<link rel="shortcut icon" href="/BibliHauteTech/img/Logo.ico" type="/BibliHauteTech/img/x-icon"/>
 	</head> 

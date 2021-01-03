@@ -1,61 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/BibliHauteTech/style2.css">
+    <title> BibliHauteTech </title>
+    <link rel="shortcut icon" href="/BibliHauteTech/img/Logo.ico" type="/BibliHauteTech/img/x-icon"/>
+</head> 
+    
+<body>
+
+<h1> Formulaire </h1>
+
+
+<div id="conteneur1">
 <?php  
-	if($_SERVER["REQUEST_METHOD"] == "POST"){
-		$client_nom = $_POST["nom"];
-		$client_prenom = $_POST["prenom"];
-		$mail = $_POST["client_mail"];
-		$option3 = $_POST["client_pack"];
-		$duration = $_POST["duration"];
-		$option1 = $_POST["client_pack"];
-		$option2 = $_POST["client_pack"];
-        $option4 = $_POST["client_pack"];
-		$demande_comp = $_POST["client_pack"];
-		if(empty($client_nom)){
-			echo "Vous 'n'avez pas renseigné votre nom.";
-		}else{
-			echo "Bonjour $name !";
-		}
-		if(empty($client_prenom)){
-            echo"Vous n'avez pas rensigné votre type d'utilisateur.";
+    if($_SERVER["REQUEST_METHOD"] == "POST"){
+        $nom = $_POST["nom"];
+        $prenom = $_POST["prenom"];
+        $mail = $_POST["mail"];
+        $option1 = $_POST["probleme"];
+        $demandes = $_POST["demandes"];
+
+
+        if(empty($nom)){
+            echo "Vous n'avez pas renseigné votre nom.";
+        }else{
+            echo "Bonjour {$nom} {$prenom} !";
         }
-        else{
-            echo" Vous êtes dans la catégorie {$type}. ";
-        }    
-		if(empty($mail)){
+        if(empty($mail)){
             echo"Vous n'avez pas rensigné votre mail.";
         }
         else{
             echo" Votre adresse mail est {$mail}.";
         }
-        if(empty($duration)){
-            echo"Vous n'avez pas rensigné la durée de votre forfait.";
+        if(empty($option1)){
+            echo"Vous n'avez pas rensigné votre probleme.";
         }
         else{
-            echo" Vous avez choisis une durée de {$duration} pour votre forfait.";
+            echo" Votre probleme est {$option1}.";
         }
-        	if(empty($opt1)){
-            	echo"Vous n'avez pas rensigné votre forfait.";
-        	}
-        	else{
-            	echo" Vous avez choisis le forfait {$forfait}.";
-        	}	
-            if(empty($opt2)){
-                echo"Vous n'avez pas rensigné votre forfait.";
-            }
-            else{
-                echo" Vous avez choisis le forfait {$forfait}.";
-            }   
-            if(empty($opt3)){
-                echo"Vous n'avez pas rensigné votre forfait.";
-            }
-            else{
-                echo" Vous avez choisis le forfait {$forfait}.";
-            }   
-            if(empty($opt4)){
-                echo"Vous n'avez pas rensigné votre forfait.";
-            }
-            else{
-                echo" Vous avez choisis le forfait {$forfait}.";
-            }   
+        if(empty($demandes)){
+            echo"Vous n'avez pas rensigné votre demandes.";
+        }
+        else{
+            echo" Votre demande est {$demande}.";
+        }
 
-    }
+}
 ?>
+
+</div>
+
+
+</body>
+</html>
