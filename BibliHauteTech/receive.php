@@ -1,19 +1,5 @@
+<?php $page_title = "Espace commentaires"; require "head.php"; ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/BibliHauteTech/style2.css">
-    <title> BibliHauteTech </title>
-    <link rel="shortcut icon" href="/BibliHauteTech/img/Logo.ico" type="/BibliHauteTech/img/x-icon"/>
-</head> 
-    
-<body>
-
-<h1> Formulaire </h1>
-
-
-<div id="conteneur1">
 <?php  
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         $nom = $_POST["nom"];
@@ -44,7 +30,6 @@
         else{
             echo "<ul><li>Votre probleme est : '{$option1}'.</li></ul>";
         }
-
 
         if(empty($demandes)){
             echo "<ul><li>Vous n'avez pas rensigné votre demandes.</li></ul>";

@@ -4,14 +4,14 @@
 
 <ul>
 	<li>
-<h2>Re:Zero (Tôme 5 de l'<a href="https://fr.wikipedia.org/wiki/Arc_narratif" target="_blank">arc</a> 3) </h2>
+<h2>Re:Zero (Tôme 5)</h2>
 	</li>
 </ul>
 
 <div class="grid0">
 	<a href="https://www.youtube.com/watch?v=3k--xA0afto" title="petit extrait de la saison 2">
-		<img src="../img/Re_Zero.webp"
-				alt="Le livre Re:Zero tôme 5 de l'arc 3"
+		<img src="../img/Re_Zero.jpg"
+				alt="Le livre Re:Zero tôme 5"
 				width="350"
 				height="400">
 	</a>

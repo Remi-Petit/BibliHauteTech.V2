@@ -66,7 +66,7 @@
 	</a>
 
 	<a href="livres/978-2-377-17219-1.php" title="Re:Zero">
-		<img src="img/Re_Zero.webp"
+		<img src="img/Re_Zero.jpg"
 				alt="Le livre Re:Zero tôme 5"
 				width="200"
 				height="250">

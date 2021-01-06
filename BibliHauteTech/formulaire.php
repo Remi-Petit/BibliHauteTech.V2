@@ -13,7 +13,7 @@
             <input type="email" id="mail" name="mail" required><br>
 
             <label for="probleme">Quel est votre soucis?</label>
-            <select name="probleme" required multiple>
+            <select name="probleme" required>
                 <option value="option1">La page web ne s'affiche pas correctement.</option>
                 <option value="option2">Il y a une erreur concercant les informations d'un/des livre(s).</option>
                 <option value="option3">Il manque des informations sur un/des livre(s).</option>
