@@ -4,32 +4,33 @@
 
 <ul>
 	<li>
-<h2>Discours De La Méthode</h2>
+<h2>Astérix le gaulois</h2>
 	</li>
 </ul>
 
 <div class="grid0">
-	<img src="../img/208139071X.jpg"
-		alt="Le livre: Discours De La Méthode"
+	<img src="../img/9782012101333.jpg"
+		alt="Le livre: Astérix le gaulois"
 		width="350"
 		height="400">
 
 	<div class="grid">
 		<div class="element">genre</div>
-		<div class="element">philosophie</div>
-
+		<div class="element">BD</div>
+	
 		<div class="element">isbn</div>
-		<div class="element">208139071X</div>
+		<div class="element">978-2-01-210-133-3</div>
 	
 		<div class="element"> prénom, nom de l'écrivain</div>
-		<div class="element">René Descartes</div>
+		<div class="element">René Goscinny</div>
 	
 		<div class="element">éditeur</div>
-		<div class="element">Flammarion</div>
-	
+		<div class="element">hachette</div>
+
 		<div class="element">date de publication</div>
-		<div class="element"><time datetime="2016-08-31">31/08/2016</time></div>
+		<div class="element"><time datetime="1960-07-14">14/07/1960</time></div>
 	</div>
+
 </div>
 
 </div>

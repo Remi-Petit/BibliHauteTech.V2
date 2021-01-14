@@ -21,11 +21,9 @@
             </select><br>
                     
         <label for="demandes">Demandes complémentaires</label><br>
-        <textarea id="addreq" name="demandes" placeholder="Entrez ici vos demandes"></textarea><br>
-
+        <textarea id="demandes" name="demandes" placeholder="Entrez ici vos demandes"></textarea><br>
         <button type="reset">Tout effacer</button>
         <button type="submit">Envoyer</button>
         </fieldset>
-
     </form>
 </div>

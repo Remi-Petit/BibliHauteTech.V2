@@ -4,34 +4,36 @@
 
 <ul>
 	<li>
-<h2>Discours De La Méthode</h2>
+<h2>Les Réseaux Pour Les Nuls</h2>
 	</li>
 </ul>
 
 <div class="grid0">
-	<img src="../img/208139071X.jpg"
-		alt="Le livre: Discours De La Méthode"
+	<img src="../img/9782412039601.jpg"
+		alt="Le livre: Les Reseaux Pour Les Nuls"
 		width="350"
 		height="400">
 
+
 	<div class="grid">
 		<div class="element">genre</div>
-		<div class="element">philosophie</div>
-
+		<div class="element">éducatif</div>
+	
 		<div class="element">isbn</div>
-		<div class="element">208139071X</div>
+		<div class="element">978-2-412-03960-1</div>
 	
 		<div class="element"> prénom, nom de l'écrivain</div>
-		<div class="element">René Descartes</div>
+		<div class="element">Doug Lowe</div>
 	
 		<div class="element">éditeur</div>
-		<div class="element">Flammarion</div>
+		<div class="element">Wiley Publishing</div>
 	
 		<div class="element">date de publication</div>
-		<div class="element"><time datetime="2016-08-31">31/08/2016</time></div>
+		<div class="element"><time datetime="2018-10-13">13/10/2018</time></div>
 	</div>
-</div>
 
+</div>
+		
 </div>
 
 <?php require "../formulaire.php"; ?>

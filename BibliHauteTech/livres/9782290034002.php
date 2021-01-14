@@ -9,7 +9,7 @@
 </ul>
 
 <div class="grid0">
-	<img src="../img/Le_Bro_Code.jpg"
+	<img src="../img/9782290034002.jpg"
 		alt="Le livre: Le Bro Code"
 		width="350"
 		height="400">
