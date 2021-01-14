@@ -1,18 +1,12 @@
 <?php require "head.php"; ?>
 
-<a href="#">
-<img class="Logo" src="img/Logo.ico" alt="Le logo de la page">
-</a>
 
-	<br>
-
-<h2>Bibliothèque</h2>
 
 <p>Voici une bibliothèque improvisée. 
 
 	<br> 
 	
-<p> Groupe: <abbr title="Doleac Grégoire">D.Grégoire</abbr> ainsi que <abbr title="Petit Rémi">P.Rémi</abbr> </p>
+Groupe: <abbr title="Doleac Grégoire">D.Grégoire</abbr> ainsi que <abbr title="Petit Rémi">P.Rémi</abbr> </p>
 
 <hr>
 

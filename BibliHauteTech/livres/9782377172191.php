@@ -1,7 +1,5 @@
 <?php require "../head.php"; ?>
 
-<?php require "Logo.php"; ?>
-
 <ul>
 	<li>
 <h2>Re:Zero (Tôme 5 de l'<a href="https://fr.wikipedia.org/wiki/Arc_narratif" target="_blank">arc</a> 3) </h2>

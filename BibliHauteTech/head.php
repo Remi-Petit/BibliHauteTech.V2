@@ -12,3 +12,9 @@
 <div id="conteneur1">
 
 <h1>BibliHauteTech</h1>
+
+<a href="/BibliHauteTech/index.php">
+<img class="Logo" src="/BibliHauteTech/img/Logo.ico" alt="Le logo de la page">
+</a>
+
+<br>

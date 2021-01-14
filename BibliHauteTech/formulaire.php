@@ -1,5 +1,5 @@
 <div id="conteneur3">
-    <form method="post" action="receive.php">
+    <form method="post" action="/BibliHauteTech/receive.php">
             
         <fieldset>
                 <legend>Espace commentaire</legend>     

@@ -1,7 +1,5 @@
 <?php require "../head.php"; ?>
 
-<?php require "Logo.php"; ?>
-
 <ul>
 	<li>
 <h2>Astérix le gaulois</h2>

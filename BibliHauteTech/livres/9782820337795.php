@@ -1,7 +1,5 @@
 <?php require "../head.php"; ?>
 
-<?php require "Logo.php"; ?>
-
 <ul>
 	<li>
 <h2>The Promised Neverland (Tôme 12)</h2>
