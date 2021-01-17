@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-	<head>  
+	<head>
+		<?php require "config.php" ?>  
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="/BibliHauteTech/style10.css">
+		<link rel="stylesheet" href="<?php echo $CONFIG['root_path'] ?>style.css">
 		<title> BibliHauteTech </title>
-		<link rel="shortcut icon" href="/BibliHauteTech/img/Logo.ico" type="/BibliHauteTech/img/x-icon"/>
+		<link rel="shortcut icon" href="<?php echo $CONFIG['root_path'] ?>img/Logo.ico" type="<?php echo $CONFIG['root_path'] ?>img/x-icon"/>
 	</head> 
 <body> 
 
@@ -13,8 +14,8 @@
 
 <h1>BibliHauteTech</h1>
 
-<a href="/BibliHauteTech/index.php">
-<img class="Logo" src="/BibliHauteTech/img/Logo.ico" alt="Le logo de la page">
+<a href="<?php echo $CONFIG['root_path'] ?>index.php">
+<img class="Logo" src="<?php echo $CONFIG['root_path'] ?>img/Logo.ico" alt="Le logo de la page">
 </a>
 
 <br>

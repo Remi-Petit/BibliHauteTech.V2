@@ -1,5 +1,6 @@
 <div id="conteneur3">
-    <form method="post" action="/BibliHauteTech/receive.php">
+    <?php require "config.php" ?>
+    <form method="post" action="<?php echo $CONFIG['root_path'] ?>receive.php">
             
         <fieldset>
                 <legend>Espace commentaire</legend>     

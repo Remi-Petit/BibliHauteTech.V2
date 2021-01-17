@@ -11,7 +11,10 @@ Groupe: <abbr title="Doleac Grégoire">D.Grégoire</abbr> ainsi que <abbr title=
 <hr>
 
 	<?php
-		$link = mysqli_connect("localhost", "root", "", "bibliotheque");
+
+	require "config.php" 
+
+		$link = mysqli_connect("echo $CONFIG['dbhost']", "echo $CONFIG['dbuser']", "echo $CONFIG['dbpwd']", "echo $CONFIG['dbname']");
 		if(!$link){
 			echo "Erreur : Impossible de se connecter à MySQL." . PHP_EOL;
     		echo "Erreur de débogage : " . mysqli_connect_errno() . PHP_EOL;
@@ -27,8 +30,7 @@ Groupe: <abbr title="Doleac Grégoire">D.Grégoire</abbr> ainsi que <abbr title=
 		if($result){
 			while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
 
-			//echo 	'<a href="' . $row["isbn"] . '.php" title="Dragon ball">
-			echo 	'<a href="/BibliHauteTech/livres/' . $row["isbn"] . '" title="' . $row["titre"] . '">
+			echo 	'<a href="detail.php" title="' . $row["titre"] . '">
 						<img src="img/' . $row["isbn"] . '.jpg"
 						alt="' . $row["titre"] . '"
 						width="200"
